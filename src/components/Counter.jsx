@@ -17,7 +17,7 @@ function Counter({ initialCount = 0 }) {
 
   return (
     <div>
-      <h2>Counter is: {count}</h2>
+      <h2>The Current Count is: {count}</h2>
       <button onClick={decrement}>-</button>
       <button onClick={increment}>+</button>
       <button onClick={reset}>Reset</button>
